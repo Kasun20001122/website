@@ -79,10 +79,15 @@ document.querySelectorAll('.section-title, .about-text, .stat-item, .timeline-it
 
 // Mobile Menu Toggle
 const hamburger = document.querySelector('.hamburger');
+const navClose = document.querySelector('.nav-close');
 const navLinks = document.querySelector('.nav-links');
 
 hamburger.addEventListener('click', () => {
-    navLinks.classList.toggle('active');
+    navLinks.classList.add('active');
+});
+
+navClose.addEventListener('click', () => {
+    navLinks.classList.remove('active');
 });
 
 // Project Modal Logic
