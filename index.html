@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio | Supiri Resume</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <script src="https://unpkg.com/feather-icons"></script> <!-- Icons -->
+</head>
+
+<body>
+    <div class="background-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+    </div>
+
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Portfolio<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certificates">Certificates</a></li>
+
+                <li><a href="#contact" class="btn-primary">Contact Me</a></li>
+            </ul>
+            <div class="hamburger">
+                <i data-feather="menu"></i>
+            </div>
+        </div>
+    </nav>
+
+    <header id="home" class="hero-section">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <p class="greeting">Hello, I'm</p>
+                <h1 class="name">Kasun Chandima</h1>
+                <h2 class="role">I am <span class="typing-text"> a Data & AI Engineer</span></h2>
+                <p class="description">
+                    Building digital experiences with modern technologies.
+                    I turn ideas into supiri (super) reality with clean code and stunning designs.
+                </p>
+                <div class="hero-btns">
+                    <a href="#projects" class="btn-primary">View My Projects</a>
+                    <a href="CV.pdf" class="btn-cv" download>Download CV <i data-feather="download"></i></a>
+                    <a href="#contact" class="btn-secondary">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="img-placeholder">
+                    <img src="photo.jpg" alt="Kasun Chandima"
+                        style="width: 96%; height: 96%; object-fit: cover; border-radius: 18px; z-index: 2;">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        As a BSc graduate in Industrial Statistics and Mathematical Finance from the University of
+                        Colombo, I excel in Python, SQL, and data visualization tools such as Tableau and Microsoft
+                        Power
+                        BI, along with skills in Microsoft Power Automate and Power Apps. With a strong foundation in
+                        machine learning, statistical analysis, and data preprocessing.
+                    </p>
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <h3>01+</h3>
+                            <p>Years Experience</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>25+</h3>
+                            <p>Projects Done</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>20+</h3>
+                            <p>Certificates</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="section">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2026 Feb - Present</div>
+                    <div class="timeline-content">
+                        <h3>Associate Data & AI Engineer</h3>
+                        <h4>Colombo Stock Exchange</h4>
+                        <p>Leading the frontend team, architecting scalable solutions, and mentoring junior developers.
+                            Working with React, Node.js, and AWS.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2025 May - 2026 Feb</div>
+                    <div class="timeline-content">
+                        <h3>Internship Data Analyst</h3>
+                        <h4>Colombo Stock Exchange</h4>
+                        <p> During my internship at the Colombo Stock Exchange, I dove into data engineering and
+                            analytics. I
+                            built a solid skill set that includes Microsoft Power BI, Microsoft Power Automate, Python,
+                            Oracle
+                            Database, and Advanced SQL. I didn’t just learn these tools; I applied them to create
+                            projects. Over
+                            the course of my internship, I completed five significant projects. Each one challenged me
+                            to solve
+                            problems, automate processes, and turn complex data into understandable insights. This
+                            experience boosted my technical skills and my confidence in delivering meaningful,
+                            data-driven
+                            solutions.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-img-placeholder">Project 1</div>
+                    <div class="project-info">
+                        <h3>E-Commerce Platform</h3>
+                        <p>A fully functional online store with cart and payment integration.</p>
+                        <div class="tags">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                        </div>
+                        <a href="#" class="btn-text view-project-btn" data-title="E-Commerce Platform"
+                            data-desc="A full-featured e-commerce application built with the MERN stack. Features include user authentication, product catalog with search/filter, shopping cart functionality, secure payment processing via Stripe, and an admin dashboard for inventory management. The app is optimized for performance and SEO."
+                            data-tech="React,Node.js,MongoDB,Express,Stripe" data-live="#" data-github="#">
+                            View Project <i data-feather="arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img-placeholder">Project 2</div>
+                    <div class="project-info">
+                        <h3>Portfolio Website</h3>
+                        <p>A modern, responsive portfolio website with dark mode animations.</p>
+                        <div class="tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JS</span>
+                        </div>
+                        <a href="#" class="btn-text view-project-btn" data-title="Portfolio Website"
+                            data-desc="A sleek, modern portfolio website designed to showcase my skills and experience. Built with semantic HTML5, modern CSS3 (including Flexbox/Grid and Glassmorphism effects), and Vanilla JavaScript for smooth animations and interactivity. Fully responsive and accessible."
+                            data-tech="HTML,CSS,JavaScript,Feather Icons" data-live="#" data-github="#">
+                            View Project <i data-feather="arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <!-- Add more projects as needed -->
+                <div class="project-card">
+                    <div class="project-img-placeholder">Project 3</div>
+                    <div class="project-info">
+                        <h3>Task Manager App</h3>
+                        <p>Productivity application for managing daily tasks and workflows.</p>
+                        <div class="tags">
+                            <span>Vue.js</span>
+                            <span>Firebase</span>
+                        </div>
+                        <a href="#" class="btn-text view-project-btn" data-title="Task Manager App"
+                            data-desc="A productivity tool aimed at helping individuals and teams manage their workflows. Includes features like board/list views, drag-and-drop task management, real-time updates using Firebase, and dark mode support. Designed with a focus on intuitive UX."
+                            data-tech="Vue.js,Firebase,Vuex,Tailwind CSS" data-live="#" data-github="#">
+                            View Project <i data-feather="arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="certificates" class="section">
+        <div class="container">
+            <h2 class="section-title">Certificates</h2>
+            <div class="certificates-grid">
+                <div class="cert-card">
+                    <i data-feather="award" class="cert-icon"></i>
+                    <h3>Full Stack Web Development</h3>
+                    <p>Coursera - 2023</p>
+                </div>
+                <div class="cert-card">
+                    <i data-feather="award" class="cert-icon"></i>
+                    <h3>AWS Certified Solutions Architect</h3>
+                    <p>Amazon Web Services - 2022</p>
+                </div>
+                <div class="cert-card">
+                    <i data-feather="award" class="cert-icon"></i>
+                    <h3>UI/UX Design Masterclass</h3>
+                    <p>Udemy - 2021</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h2>Let's Work Together</h2>
+                    <p>Have a project in mind? Reach out to me via email or social media.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i data-feather="mail"></i>
+                            <span>orgbandara2000@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i data-feather="phone"></i>
+                            <span>+94 71 966 6168 / +94 76 666 1125</span>
+                        </div>
+                        <div class="contact-item">
+                            <i data-feather="map-pin"></i>
+                            <span>Nugegoda, Sri Lanka</span>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" action="https://formspree.io/f/maqdngrq" method="POST">
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Your Name. All Rights Reserved.</p>
+            <div class="social-links">
+                <a href="https://github.com/Kasun20001122" target="_blank"><i data-feather="github"></i></a>
+                <a href="https://www.linkedin.com/in/kasun-chandima-b8960130b/" target="_blank"><i
+                        data-feather="linkedin"></i></a>
+                <a href="#" target="_blank"><i data-feather="twitter"></i></a>
+                <a href="#" target="_blank"><i data-feather="instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Project Modal -->
+    <div class="modal-overlay" id="projectModal">
+        <div class="modal-content">
+            <button class="modal-close" id="closeModalBtn"><i data-feather="x"></i></button>
+            <div class="modal-body">
+                <div class="modal-img-container">
+                    <div class="modal-img-placeholder" id="modalImg">Project Image Try</div>
+                </div>
+                <div class="modal-info">
+                    <h2 id="modalTitle">Project Title</h2>
+                    <p id="modalDesc">Project description goes here.</p>
+                    <div class="modal-tags" id="modalTech">
+                        <!-- Technology tags will be injected here -->
+                    </div>
+                    <div class="modal-actions">
+                        <a href="#" class="btn-primary" id="modalLiveBtn">Live Demo <i
+                                data-feather="external-link"></i></a>
+                        <a href="#" class="btn-secondary" id="modalGithubBtn">GitHub <i data-feather="github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+    <script>
+        feather.replace();
+    </script>
+</body>
+
+</html>
